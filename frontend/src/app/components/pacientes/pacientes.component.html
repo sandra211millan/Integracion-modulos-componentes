@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Interfaz pacientes</title>
+    <link href="pacientes.component.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&family=Bad+Script&family=Charm&family=Cookie&family=Creepster&family=Dancing+Script&family=IBM+Plex+Serif:ital@1&family=Neuton&family=Poiret+One&family=Rancho&family=Tangerine&family=Tillana&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="contenedor">
+      <main>
+          <!--Software para agendamiento de citas en consultorio estetico pagina 2-->
+          
+          <div id="header">
+            <header>
+              <img src="Logotipo aesthetic management.jpg" class="logotipo" alt="logo de la aplicación Aesthetic management">
+            </header>
+            <hr>
+          </div>
+          
+          <div id="nav">
+            <nav>
+              <button> <a href="Maquetacion Inicio.html" target="_blank"> Inicio </a></button>
+              <button><a href="#"> Nosotros </a></button>
+              <button><a href="Calendario.html" target="_blank"> Calendario </a></button>
+              <button><a href="pacientes.component.html"> Pacientes </a></button>
+              <button><a href="#"> Tratamientos </a></button>
+              <button><a href="#"> Ventas </a></button>
+              <button><a href="#"> Busqueda </a></button>
+              <button><a href="#"> Ayuda </a></button>
+            </nav>
+
+            <div class="container">
+                <div id="section">
+                    <img id= "silueta" src="silueta-y-contorno.png">
+                  </div>
+                  <div>
+                    <h1 id="datos"> DATOS PERSONALES</h1>
+                  </div>
+                <div class="row">
+                    <div class="col s5">
+                        <div class="card">
+                            <div class="card-content">
+                                <form #pacienteForm="ngForm" (ngSubmit)="agregarPaciente(pacienteForm)">
+                                    <div class="row">
+                                        <div class="input-field col-s12">
+                                            <input id="nombres" type="text" name="name" #name="ngModel" [(ngModel)]="pacienteService.selectedPaciente.name"
+                                            placeholder="Ingrese su nombre">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="cedula" type="number" name="document" #document="ngModel" [(ngModel)]="pacienteService.selectedPaciente.document"
+                                            placeholder="Ingrese su numero de documento">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="edad" type="text" name="age" #age="ngModel" [(ngModel)]="pacienteService.selectedPaciente.age"
+                                            placeholder="Ingrese su edad">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="telefono" type="number" name="phone" #phone="ngModel" [(ngModel)]="pacienteService.selectedPaciente.phone"
+                                            placeholder="Ingrese su numero de telefono">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="fecha" type="date" name="birth" #birth="ngModel" [(ngModel)]="pacienteService.selectedPaciente.document"
+                                            placeholder="Ingrese su fecha de nacimiento">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="direccion" type="text" name="adress" #adress="ngModel" [(ngModel)]="pacienteService.selectedPaciente.document"
+                                            placeholder="Ingrese su direccion de residencia">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="correo" type="email" name="email" #email="ngModel" [(ngModel)]="pacienteService.selectedPaciente.document"
+                                            placeholder="Ingrese su correo electronico">
+                                        </div>
+                                        <div class="input-field col-s12">
+                                            <input id="eps" type="text" name="eps" #eps="ngModel" [(ngModel)]="pacienteService.selectedPaciente.document"
+                                            placeholder="Ingrese su entidad promotora de salud">
+                                        </div>
+                                        <div class="card-action">
+                                            <div class="input-field col s12">
+                                                <button id="limpiar" class="btn right" (click)="resetForm(pacienteForm)">Limpiar</button>
+                                                <button id="guardar" class="btn">Guardar</button>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s7">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <hr>
+        <div id="footer">
+          <footer>
+            <br>
+            <br>
+            <p id="sandra"><small> Presentado por: Sandra Milena Millan Alvarez. Maquetacion de la interfaz grafica.   Analisis y desarrollo de software. SENA. Instructor: Rafael Armando Saltarin de la Hoz.</a></small></p>
+          </footer>
+        </div>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,185 @@
+#container{
+    width: 1200px; 
+    height:1200px;
+    margin:0.3em auto;
+    padding:0.3em;
+    background-color: rgb(236, 226, 252);
+}
+
+#header{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(246, 240, 255);
+    border-radius: 0.5em;
+    margin:0.5em;
+}
+
+.logotipo {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#nav{
+    height: 10%;
+    text-align:center;
+    width: 100%;
+    border-radius: 5em;
+    margin:0em;
+}
+
+button{
+    height: 100%;
+    width: 140px;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: rgb(222, 220, 220);
+    border-style: groove;
+    border-width: 2px;
+}
+
+#contenido{
+    height: 50%;
+}
+
+#pacientes{
+    font-family: 'Rancho', cursiva;
+    color:rgb(12, 3, 20);
+    font-size: 30px;
+}
+
+p, ul{
+    font-family: 'Tillana', cursiva;
+    font-size: 17px;
+}
+
+#section {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+#aside {
+    height: 100%;
+    width: 60%;
+    float: right; 
+}
+
+#silueta {
+    border-radius: 150px;
+    width: 400px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+#datos {
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#nombres{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#cedula{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#edad{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#telefono{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#fecha {
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#direccion{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#eps{
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#correo {
+    width: 50%;
+    margin: 15px;;
+    padding:1.5px;
+    border-radius: 10px;
+    float:left;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+}
+
+#guardar{
+    width: 30%;
+    margin: 15px;
+    padding: 0.5px;
+    float:inline-end;
+}
+
+#limpiar{
+    width: 30%;
+    margin:15px;
+    float:inline-end;
+}
+
+#footer{
+    text-align:left;
+    height: 100%;
+    border-radius: 0.5em;
+    margin:0.5em; 
+    float: inline-end;
+}
+
+
+

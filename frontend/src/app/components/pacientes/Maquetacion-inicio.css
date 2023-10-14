@@ -1,0 +1,95 @@
+#contenedor{
+    width: 1200px; 
+    height:1000px;
+    margin:0.3em auto;
+    padding:0.3em;
+    background-color: rgb(236, 226, 252);
+}
+
+#header{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(246, 240, 255);
+    border-radius: 0.5em;
+    margin:0.5em;
+}
+
+.logotipo {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#nav{
+    height: 10%;
+    text-align:center;
+    width: 100%;
+    border-radius: 0.5em;
+    margin:0.5em;
+}
+
+button{
+    height: 100%;
+    width: 140px;
+    font-family:'Rancho', cursiva;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: rgb(222, 220, 220);
+    border-style: groove;
+    border-width: 2px;
+}
+
+
+#contenido{
+    height: 50%;
+}
+h1{
+    font-family: 'Rancho', cursiva;
+    color:rgb(155, 85, 221);
+    font-size: 30px;
+}
+
+p, ul{
+    font-family: 'Tillana', cursiva;
+    font-size: 17px;
+}
+
+#section {
+    height: 100%;
+    width: 53%;
+    float: left;
+}
+
+#aside {
+    height: 100%;
+    width: 47%;
+    float: right; 
+}
+
+#calendario {
+    text-align:right;
+    text-align:end;
+    width: 550px;
+    border-radius: 200px;
+}
+
+#footer{
+    text-align:end;
+    text-align:left;
+    height: 10%;
+    border-radius: 0.5em;
+    margin:0.5em; 
+}
+
+#sandra {
+    text-align:end;
+    text-align:left;
+    height: 10%;
+}
+
+
+
+
+
+
+
+
